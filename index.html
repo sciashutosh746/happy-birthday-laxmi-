@@ -1,35 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Happy Birthday Laxmi ❤️</title>
+!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy Birthday My Puku 🧡</title>
 <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="hearts"></div>
-<section class="card">
-<h1>🎉 Happy Birthday, Laxmi ❤️</h1>
-<p class="sub">Today is all about the most beautiful soul I know.</p>
-<button id="giftBtn">🎁 Open Your Gift</button>
-
-<div id="letter" class="hidden">
-<h2>💌 A Letter From My Heart</h2>
-<p>Dear Laxmi,</p>
-<p>Happy Birthday! I may not always be able to give you expensive gifts, but I hope you always feel my love, respect and prayers.</p>
-<p>You make ordinary days feel special. I pray that this year fills your life with happiness, success, peace and countless smiles.</p>
-<p>Thank you for being such a beautiful part of my life.</p>
-<p><b>Happy Birthday, My Love. ❤️</b></p>
-<p>— Yours,<br><b>Ashutosh</b></p>
-<button id="surpriseBtn">✨ One Last Surprise</button>
+</head><body>
+<div id="stars"></div>
+<div class="center" id="scene1">
+<h2>✨ Close your eyes for a second...</h2>
+<p>Now open them... ❤️</p>
+<button onclick="next1()">Begin</button>
 </div>
 
-<div id="final" class="hidden">
-<h1>I Love You ❤️</h1>
-<p>If I could give you one thing in life, it would be the ability to see yourself through my eyes.</p>
-<p class="big">Forever? 💍</p>
+<div class="center hidden" id="scene2">
+<h1>🎉 Happy Birthday My Puku 🧡</h1>
+<p>The most beautiful soul I know.</p>
+<button onclick="next2()">🎁 Open Your Gift</button>
 </div>
-</section>
+
+<div class="letter hidden" id="scene3">
+<h2>💌 To My Dearest Puku</h2>
+<div id="type"></div>
+<button onclick="next3()">✨ One Last Surprise</button>
+</div>
+
+<div class="hidden center" id="scene4">
+<div id="msgs"></div>
+<h1 class="love">❤️ I LOVE YOU MY PUKU ❤️</h1>
+<p>Forever Yours,<br><b>Ashutosh</b></p>
+</div>
+
 <script src="script.js"></script>
-</body>
-</html>
+</body></html>
